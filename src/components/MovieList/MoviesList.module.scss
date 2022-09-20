@@ -1,0 +1,24 @@
+.list {
+  padding: 0;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.item {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.link {
+  color: #888888;
+
+  &:hover,
+  :focus {
+    color: #000000;
+  }
+}

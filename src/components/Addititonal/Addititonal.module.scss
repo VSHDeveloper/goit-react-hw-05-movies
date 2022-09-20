@@ -1,0 +1,20 @@
+.title {
+  margin-bottom: 10px;
+}
+
+.item {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.link {
+  color: #888888;
+
+  &:hover,
+  :focus {
+    color: #000000;
+  }
+}
